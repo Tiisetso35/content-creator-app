@@ -1,0 +1,16 @@
+.small-link{font-size:.9rem;font-weight:600}
+.login{max-width:360px;margin:60px auto;display:grid;gap:12px}
+.dash{padding:18px 0 40px}.dash h1{margin:0}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px;margin-bottom:20px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column}
+.stat b{font-size:1.7rem;color:var(--brand)}
+.scroll{overflow-x:auto;margin-top:14px}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:10px;overflow:hidden}
+th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);font-size:.92rem;white-space:nowrap}
+.acts{display:flex;gap:8px;flex-wrap:wrap}
+.btn.danger{border-color:#b42318;color:#b42318}
+.badge{padding:2px 9px;border-radius:99px;font-size:.75rem;font-weight:600;background:#eee}
+.badge.Published,.badge.approved{background:#d1fadf;color:#05603a}.badge.Scheduled{background:#fef0c7;color:#93370d}.badge.hidden{background:#fee4e2;color:#b42318}
+.chk{display:flex;gap:8px;align-items:center}.dash .cform{max-width:640px}
+label{display:grid;gap:4px;font-size:.9rem;color:var(--mute)}
